@@ -16,6 +16,8 @@ class PasswordValidateTest extends PHPUnit_Framework_TestCase {
     
     public function testValidateLength(){
         $validPass = new PasswordValidate();
-        $this->assertFalse($validPass->lengthValid('123456'));
+        
+        $expected = $validPass->lengthValid('1234');
+        $this->assertFalse($expected);
     }
 }
