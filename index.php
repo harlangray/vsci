@@ -11,6 +11,6 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>I made a change with php trying to change ownership 1</div>
+        <div>I made a change with php trying to change ownership <?= 'Some PHP Coding' ?></div>
     </body>
 </html>
